@@ -6,7 +6,7 @@ metadata:
     app: hello
     app.kubernetes.io/component: hello
     app.kubernetes.io/instance: hello
-    app.kubernetes.io/part-of: hello-topology-spread-constraints
+    app.kubernetes.io/part-of: hello
     app.openshift.io/runtime: golang
 spec:
   replicas: 1
