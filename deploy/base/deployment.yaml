@@ -9,7 +9,7 @@ metadata:
     app.kubernetes.io/part-of: hello-topology-spread-constraints
     app.openshift.io/runtime: golang
 spec:
-  replicas: 2
+  replicas: 1
   strategy:
     type: RollingUpdate
   selector:
